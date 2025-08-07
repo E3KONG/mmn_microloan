@@ -5,7 +5,7 @@ import { AudioHandler } from './utility/AudioHandler';
 import { useGSAP } from '@gsap/react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import { AddEndTL, AddStartTL, safeGsapSet, safeGsapTo, RefFromTo, TimelineHandle } from './utility/TimelineHandle';
+import { AddEndTL, AddStartTL, safeGsapSet, safeGsapTo, TimelineHandle } from './utility/TimelineHandle';
 
 export const SectionLanding = forwardRef<gsap.core.Timeline>((_, ref) => {
   const sectionRef = useRef<HTMLElement | null>(null);

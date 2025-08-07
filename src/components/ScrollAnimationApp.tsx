@@ -8,7 +8,7 @@ import { SectionMickey } from './SectionMickey';
 import { ContentBG } from './utility/contentBG';
 
 export const ScrollAnimationApp = () => {
-  const [isLoaded, setIsLoaded] = useState(false);
+  const [isLoaded] = useState(false);
   const captionTL = useRef<gsap.core.Timeline | null>(null);
   const landingTL = useRef<gsap.core.Timeline | null>(null);
   const misshTL = useRef<gsap.core.Timeline | null>(null);
